@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Awais Shah" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Awais Shah">Awais Shah</h1>
+
+          <p class="title">Junior Test Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-02-15">Feb 15, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>London, England, UK</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+              <a href="https://x.com/awais_213" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+          </li>
+          <li class="social-item">
+              <a href="https://www.linkedin.com/in/syed-awais-shah/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </li>
+          <li class="social-item">
+              <a href="https://github.com/AwaisRep" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+              </a>
+          </li>
+      </ul>
+      
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi I'm a junior test engineer for Motorola Solutions, from London, UK.
+            I enjoy
+            transforming ideas into working solutions using modern programming languages.
+          </p>
+
+          <p>
+            Even though I work as a test engineer, my background and aspirations lie within software engineering.
+            I enjoy working across the tech-stack from front-end development to back-end. If I've caught you're eye
+            with my portfolio, why not reach out to me!?
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Scripting</h4>
+
+                <p class="service-item-text">
+                  Automating manual tasks through technologies such as Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Creating full-stack web applications with modern frameworks such as Django, Vue, Vite & more!
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desktop Development</h4>
+
+                <p class="service-item-text">
+                  Currently expanding my skillset by developing desktop applications
+                  with Wails - powered by Golang & React with Typescript
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">REST API Development</h4>
+
+                <p class="service-item-text">
+                  Using Django's REST framework, I've been able to build REST APIs able to handle
+                  authentication, profile management and direct peer to peer connections.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - skills
+        -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Tech Stack Expertise</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML/CSS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript/TypeScript</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="10">10%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 10%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Django</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Vue.js</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Vite</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Pinia.js</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PostgreSQL</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQLite</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Go</h5>
+                <data value="0">Loading...</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 0%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="0">Loading...</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 0%;"></div>
+              </div>
+            </li>
+
+
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CV
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Queen Mary University of London - BSc Hons</h4>
+
+              <span>2021 - 2024</span>
+
+              <p class="timeline-text">
+                Achieved a first class degree in software engineering for business
+                (4.0 GPA equivalency).
+                <br>
+                Key modules taken in each year:<br><br>
+                <h5 class="colstyle timeline-item-title">Year 1:</h5>
+                <p class="timeline-text">
+                Fundamentals of Web Technology: 86.3%<br>
+                Computer Systems and Networks: 86.1%<br>
+                Professional and Research Practice: 84%<br>
+                Object-Oriented Programming: 80.4%<br><br>
+                </p>
+
+                <h5 class="colstyle timeline-item-title">Year 2:</h5>
+                <p class="timeline-text">
+                Internet Protocols and Applications: 82.4%<br>
+                Graphical User Interfaces: 77%<br>
+                Software Engineering Project: 75.8%<br>
+                Software Engineering: 74.8%<br><br>
+                </p>
+
+                <h5 class="colstyle timeline-item-title">Year 3:</h5>
+                <p class="timeline-text">
+                Distributed Systems: 92.2%<br>
+                Project Risk Management: 82.6%<br>
+                Web Programming: 80.3%<br>
+                Security Engineering: 75.5%
+                </p>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Walthamstow Academy Sixth Form</h4>
+
+              <span>2019 - 2021</span>
+
+              <p class="timeline-text">
+                Studied A-Level Computer Science and Double BTEC Business Studies.
+                <br> Achieved grades A & D*D* respectively.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Test Engineer</h4>
+
+              <span>01/2025 — Present</span>
+
+              <p class="timeline-text">
+                In my current role as a junior test engineer at Motorola Solutions,
+                I help ensure software products are reliable and meet quality standards through manual and automated testing.<br>
+                I work closely with developers to identify and fix issues, using testing tools to make the process smoother.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GCSE Computer Science Tutor</h4>
+
+              <span>09/2021 — 06/2024</span>
+
+              <p class="timeline-text">
+                During my time at university, I provided free tutoring services in Computer Science to friends and family, focusing on GCSE students.<br>
+                My lessons were primarily based on the OCR exam board curriculum, but I also adapted my teaching to the AQA standard when requested.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Virgin Media Student Ambassador</h4>
+
+              <span>07/2022 — 10/2022</span>
+
+              <p class="timeline-text">
+                This was a commission-based role I took on during university breaks to promote Virgin Media's broadband services
+                to students moving onto campus.<br>
+                Working under Campus Industries, I utilised their resources and support
+                to engage with new students effectively while tracking our success in meeting promotional goals.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Scripts</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Desktop Applications</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Scripts</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desktop Applications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web applications">
+              <a href="https://github.com/AwaisRep/Trivela-Trivia">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="trivela trivia" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trivela Trivia</h3>
+
+                <p class="project-category">Web Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="scripts">
+              <a href="https://github.com/AwaisRep/CredentialExtractor">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="credential extractor" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Credential Extractor</h3>
+
+                <p class="project-category">Scripts</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="desktop applications">
+              <a href="https://github.com/AwaisRep/PiTV">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="PiTV" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PiTV</h3>
+
+                <p class="project-category">Desktop Applications</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
